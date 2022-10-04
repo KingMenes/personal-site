@@ -1,7 +1,9 @@
 import './Navbar.css'
 function Navbar() {
   return (
-    <div>Navbar</div>
+      <div>
+          
+    </div>
   )
 }
 
