@@ -1,1 +1,24 @@
-/*# sourceMappingURL=Header.css.map */
+.header {
+  color: #FFFFFF;
+  border: 1px red solid;
+  display: block;
+  max-width: 90%;
+  padding: 20px 10px;
+  margin: -10px auto;
+}
+.header .blurb {
+  margin-top: 110px;
+}
+.header .blurb p {
+  font-size: 30px;
+  line-height: 40px;
+  margin-right: 40px;
+  color: #8D8D8D;
+}
+.header .greeting {
+  font-size: 70px;
+  line-height: 5px;
+}
+.header .name {
+  color: #E3405F;
+}/*# sourceMappingURL=Header.css.map */

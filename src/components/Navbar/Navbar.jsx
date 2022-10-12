@@ -1,12 +1,9 @@
 import './Navbar.css'
-import {useState} from 'react'
 
-function Navbar({ theme }) {
-  const [currTheme, setCurrTheme] = useState(theme);
-
+function Navbar() {
   return (
     <div className='navbar'>
-      <span>mena.ibrahim()</span>
+      <div className='logo'><span>mena.ibrahim()</span></div>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>

@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+@import '../helpers/darkTheme';
+
+body {
+    background-color: #1D1D1D;
+}
+
 .App{
     display: flex;
     min-width: 100%;
+    flex-direction: column;
+    font-family: 'Libre Baskerville', serif;
+    justify-content: center;
+    align-items: center;
 }
 
-ul {
-    list-style-type: none;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-}
+
 a {
     text-decoration: none;
  }

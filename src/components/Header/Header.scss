@@ -1,1 +1,29 @@
+@import '../../helpers/darkTheme';
+.header {
+    color: $textColor;
+    border: 1px red solid;
+    display: block;
+    max-width: 90%;
+    padding: 20px 10px;
+    margin: -10px auto;
 
+    .blurb {
+        margin-top: 110px;
+        p {
+            font-size: 30px;
+            line-height: 40px;
+            margin-right: 40px;
+            color: $secondaryText;
+        }
+        
+    }
+
+    .greeting {
+        font-size: 70px;
+        line-height: 5px;
+    }
+
+    .name {
+        color: $accentColor
+    }
+}

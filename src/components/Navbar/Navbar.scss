@@ -1,25 +1,37 @@
+@import '../../helpers/darkTheme';
+
 .navbar{
     font-family: 'Libre Baskerville', serif;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 60px;
-    color: azure;
+    color: $textColor;
     justify-content: space-between;
-    border: blue solid 1px;
+    font-size: 26px;
+    margin-top: 20px;
+    .logo {
+        font-size: 24px;
+        letter-spacing: 3px;
+        width: 25%;
+        font-weight: 700;
 
+    }
     nav{
-        min-width: 100%;
+        width: 75%;
+        display: flex;
+        justify-content: flex-end;
     }
 
     ul {
-        min-width: 100%;
+        width: 50%;
         height: auto;
         display:flex;
         justify-content: space-between;
         align-items: center;
-        border: red solid 1px;
+        list-style: none;
+        font-size: 18px;
     }
 
     a{
