@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header'
 
 function Home({ theme,setTheme }) {
   return (
-    <div>
+    <div className='Home'>
           <Header theme={theme} setTheme={setTheme} />
     </div>
   )
