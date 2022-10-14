@@ -1,4 +1,6 @@
+import HeaderIllustration from '../HeaderIllustration/HeaderIllustration'
 import './Header.css'
+import {themes} from '../../theme.js'
 
 function Header() {
   return (
@@ -15,7 +17,7 @@ function Header() {
         <button />
       </div>
       <div className='page-art'>
-
+        <HeaderIllustration theme={themes.dark} />
       </div>
       
     </div>
