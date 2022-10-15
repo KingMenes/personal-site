@@ -1,0 +1,63 @@
+.socialMedia {
+  margin-top: -10px;
+}
+.socialMedia ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.socialMedia ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.socialMedia ul a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: inherit;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.socialMedia ul .github {
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+  margin-left: -45px;
+}
+.socialMedia ul .github:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px #333;
+}
+.socialMedia ul .linkedin {
+  background-color: #0e76a8;
+  transition: all 0.2s ease-in-out;
+}
+.socialMedia ul .linkedin:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px #0e76a8;
+}
+.socialMedia ul .instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  transition: all 0.2s ease-in-out;
+}
+.socialMedia ul .instagram:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px #e4405f;
+}
+.socialMedia ul .google {
+  background-color: #ea4335;
+  transition: all 0.2s ease-in-out;
+}
+.socialMedia ul .google:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px #ea4335;
+}/*# sourceMappingURL=SocialMediaBar.css.map */

@@ -6,10 +6,10 @@ function Navbar() {
       <div className='logo'><span>mena.ibrahim()</span></div>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Projects</a></li>
-          <li><a href="/">Experience</a></li>
-          <li><a href="/">Contact Me</a></li>
+          <li><a href="/"><span>01. </span>About</a></li>
+          <li><a href="/"><span>02. </span>Experience</a></li>
+          <li><a href="/"><span>03. </span>Projects</a></li>
+          <li><a href="/"><span>04. </span>Contact Me</a></li>
         </ul>
       </nav>
     </div>

@@ -1,7 +1,7 @@
 @import '../../helpers/darkTheme';
 
 .navbar{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Consolas', serif;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,11 +11,15 @@
     justify-content: space-between;
     font-size: 26px;
     margin-top: 20px;
+    // position:fixed;
+    // top:0;
+
     .logo {
+        font-family: 'Consolas', 'sans-serif';
         font-size: 24px;
         letter-spacing: 3px;
         width: 25%;
-        font-weight: 700;
+        font-weight: 400;
 
     }
     nav{
@@ -32,6 +36,10 @@
         align-items: center;
         list-style: none;
         font-size: 18px;
+
+        span {
+            color: $accentColor;
+        }
     }
 
     a{

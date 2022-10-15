@@ -1,6 +1,5 @@
 .header {
   color: #FFFFFF;
-  border: 1px red solid;
   display: flex;
   justify-content: space-between;
   max-width: 75%;
@@ -8,7 +7,8 @@
   margin: -10px auto;
 }
 .header .blurb {
-  margin-top: 110px;
+  margin-top: 180px;
+  margin-left: 30px;
 }
 .header .blurb p {
   font-size: 30px;
@@ -17,9 +17,34 @@
   color: #8D8D8D;
 }
 .header .greeting {
-  font-size: 70px;
+  font-size: 64px;
   line-height: 5px;
 }
 .header .name {
-  color: #E3405F;
+  color: #0077ff;
+}
+.header .page-art {
+  margin-right: 30px;
+  margin-top: 40px;
+  transform: scale(0.95);
+}
+.header .contact-btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 18px;
+  cursor: pointer;
+  outline: inherit;
+  background-color: #0077ff;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  margin-top: 10px;
+}
+.header .contact-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px #0077ff;
 }/*# sourceMappingURL=Header.css.map */

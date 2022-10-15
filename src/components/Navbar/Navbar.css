@@ -1,5 +1,5 @@
 .navbar {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Consolas", serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,10 +11,11 @@
   margin-top: 20px;
 }
 .navbar .logo {
+  font-family: "Consolas", "sans-serif";
   font-size: 24px;
   letter-spacing: 3px;
   width: 25%;
-  font-weight: 700;
+  font-weight: 400;
 }
 .navbar nav {
   width: 75%;
@@ -29,6 +30,9 @@
   align-items: center;
   list-style: none;
   font-size: 18px;
+}
+.navbar ul span {
+  color: #0077ff;
 }
 .navbar a {
   color: inherit;
