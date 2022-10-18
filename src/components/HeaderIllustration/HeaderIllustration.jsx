@@ -5,6 +5,7 @@ function HeaderIllustration(props) {
   return (
     <svg
       version="1.1"
+      className="headerIllustration"
       viewBox="80 -10 100.1879 500"
       height="650.68268"
       width="711.1879"

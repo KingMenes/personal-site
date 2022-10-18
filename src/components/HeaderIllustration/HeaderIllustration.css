@@ -489,4 +489,8 @@
   100% {
     transform: scale(0.96);
   }
+}
+.headerIllustration {
+  height: 100%;
+  width: 100%;
 }/*# sourceMappingURL=HeaderIllustration.css.map */

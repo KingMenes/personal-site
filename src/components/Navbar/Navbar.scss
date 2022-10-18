@@ -10,7 +10,7 @@
     color: $textColor;
     justify-content: space-between;
     font-size: 26px;
-    margin-top: 20px;
+    margin: 20px 0 auto;
     // position:fixed;
     // top:0;
 
@@ -47,3 +47,14 @@
     }
 }
 
+@media (min-width: 768px) {
+    .navbar {
+        ul{
+            width:100%;
+            justify-content: flex-end;
+            li {
+                margin-right: 1.5em;
+            }
+        }
+    }
+  }

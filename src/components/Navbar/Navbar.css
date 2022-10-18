@@ -8,7 +8,7 @@
   color: #FFFFFF;
   justify-content: space-between;
   font-size: 26px;
-  margin-top: 20px;
+  margin: 20px 0 auto;
 }
 .navbar .logo {
   font-family: "Consolas", "sans-serif";
@@ -36,4 +36,14 @@
 }
 .navbar a {
   color: inherit;
+}
+
+@media (min-width: 768px) {
+  .navbar ul {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .navbar ul li {
+    margin-right: 1.5em;
+  }
 }/*# sourceMappingURL=Navbar.css.map */

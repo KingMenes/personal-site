@@ -1,0 +1,49 @@
+.aboutMe {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+}
+.aboutMe .about-text {
+  width: 55%;
+  color: #8D8D8D;
+  line-height: 25px;
+  margin-top: 200px;
+  margin-left: 20px;
+  font-family: "Libre Baskerville", serif;
+}
+.aboutMe .about-picture {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  aspect-ratio: 1/1;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.aboutMe .about-picture img {
+  border-radius: 50%;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 24px;
+  font-family: "Consolas", serif;
+  margin-bottom: 50px;
+}
+.heading span {
+  color: #0077ff;
+  font-family: inherit;
+}
+.heading hr {
+  width: 65%;
+  margin-left: 10px;
+  height: 0;
+  color: #8D8D8D;
+}/*# sourceMappingURL=AboutMe.css.map */
