@@ -1,5 +1,6 @@
 import ProjectCard from '../ProjectCard/ProjectCard'
 import './Projects.css'
+import {projects} from '../../projects'
 
 function Projects() {
   return (
@@ -7,7 +8,10 @@ function Projects() {
       <h2 className='heading'><span>03. </span> Projects <hr /></h2>
       <div className='project-cards'>
         <div className='row'>
-          <ProjectCard/>
+          <ProjectCard title={projects.title} name={projects.name}
+            desc={projects.desc}
+            techUsed={projects.techUsed}
+          />
           <ProjectCard/>
         </div>
         <div className='row'>

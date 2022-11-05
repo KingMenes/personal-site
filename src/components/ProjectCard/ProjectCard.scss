@@ -90,9 +90,7 @@ h1 {
   input[type='checkbox']:checked + .menu-content {
     transform: translateY(-60px);
   }
-  .wrapper{
-    background: url(https://images.unsplash.com/photo-1547405358-4ef2671bb1bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80) 30% 1% / cover no-repeat;
-  }
+}
 
   
 
@@ -136,7 +134,9 @@ h1 {
   }
 }
 
-
+.tutoral{
+  background: url(../../assets/tutoral.png) 20% 40% / contain no-repeat;
+}
 
 
 

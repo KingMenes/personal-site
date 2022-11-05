@@ -6,10 +6,10 @@ function AboutMe() {
     <div className="aboutMe" id='about'>
       <div className='about-text'>
         <h1 className='heading'><span>01. </span> About Me <hr /></h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eos esse id debitis, nisi, culpa odit ut libero sed, molestiae quis accusamus ab similique laborum expedita inventore. Facere, laudantium dolor!
+        <p>Hello! My name is Mena and I enjoy making things and showing them off to the world. Originally I graduated RIT with a mechanical engineering degree, because I love to solve problems and work on products hands-on. 
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ea at eaque velit iusto ipsam illum quis perferendis eveniet quam rerum, accusamus odit reiciendis aperiam aliquid voluptatem fugiat provident vitae.
+          Fast forward to today, and I've had the 
         </p>
       </div>
       <div className='about-picture'>
