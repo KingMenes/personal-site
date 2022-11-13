@@ -1,16 +1,16 @@
 import './ProjectCard.css'
-function ProjectCard({ title, desc, name, techUsed }) {
+function ProjectCard({project}) {
   
-  const listTech = techUsed.map(tech =>
-    <span key={key}
+  const listTech = project.techUsed.map(tech =>
+    <span key={tech.id}
       className='techspan'>
-      {tech} 
+      {tech.name} 
     </span>
     );
 
   return (
     <div class="project-card card">
-      <div class={`wrapper ${name}`}>
+      <div class={`wrapper ${project.name}`}>
         {/* <div class="date">
           <span class="day">12</span>
           <span class="month">Aug</span>
@@ -19,8 +19,8 @@ function ProjectCard({ title, desc, name, techUsed }) {
         <div class="data">
           <div class="content">
             {/* <span class="type">Project</span> */}
-            <h1 class="title"><a href="#">{title}</a></h1>
-            <p class="text">{desc}</p>
+            <h1 class="title"><a href="#">{project.title}</a></h1>
+            <p class="text">{project.desc}</p>
             <div className='techdiv'>
               {listTech}
             </div>

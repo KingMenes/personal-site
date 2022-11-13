@@ -8,15 +8,13 @@ function Projects() {
       <h2 className='heading'><span>03. </span> Projects <hr /></h2>
       <div className='project-cards'>
         <div className='row'>
-          <ProjectCard title={projects.title} name={projects.name}
-            desc={projects.desc}
-            techUsed={projects.techUsed}
+          <ProjectCard project={projects[0]}
           />
-          <ProjectCard/>
+          {/* <ProjectCard/> */}
         </div>
         <div className='row'>
-          <ProjectCard/>
-          <ProjectCard/>
+          {/* <ProjectCard/>
+          <ProjectCard/> */}
         </div>
         
       </div>
