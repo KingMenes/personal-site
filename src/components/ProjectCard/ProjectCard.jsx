@@ -2,10 +2,11 @@ import './ProjectCard.css'
 function ProjectCard({project}) {
   
   const listTech = project.techUsed.map(tech =>
-    <span key={tech.id}
+    <div key={tech.id}
       className='techspan'>
+      {tech.icon}
       {tech.name} 
-    </span>
+    </div>
     );
 
   return (
