@@ -10,7 +10,8 @@ function Projects() {
         <div className='row'>
           <ProjectCard project={projects[0]}
           />
-          {/* <ProjectCard/> */}
+          <ProjectCard project={projects[1]}
+          />
         </div>
         <div className='row'>
           {/* <ProjectCard/>

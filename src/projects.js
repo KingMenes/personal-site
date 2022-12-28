@@ -18,6 +18,30 @@ const projects1 = [
                 "name":"Firebase",
             }
         ],
+    },
+    {
+        "id":2,
+        "title": "hiremepls",
+        "name":"hiremepls",
+        "desc": "A forum where users can share and answer interview questions.",
+        "techUsed": [
+            {
+                "id": 1,
+                "name":"React",
+            },
+            {
+                "id": 2,
+                "name":"Sass CSS",
+            },
+            {
+                "id": 3,
+                "name":"MongoDB",
+            },
+            {
+                "id": 4,
+                "name":"Express.js",
+            }
+        ],
     }
 ];
 

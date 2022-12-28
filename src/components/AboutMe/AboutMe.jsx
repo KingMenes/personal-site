@@ -1,5 +1,5 @@
 import './AboutMe.css'
-import portrait from '../../assets/portrait.jpg'
+import portrait from '../../assets/portrait2.jpg'
 
 function AboutMe() {
   return (
