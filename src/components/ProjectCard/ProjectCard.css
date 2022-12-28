@@ -111,4 +111,24 @@ h1 {
 
 .tutoral {
   background: url(../../assets/tutoral.png) 20% 40%/contain no-repeat;
+}
+
+.hiremepls {
+  background: url(../../assets/Hiremepls.png) 20% 40%/contain no-repeat;
+}
+
+.techspan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1em;
+  background-color: #0077ff;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.techdiv {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=ProjectCard.css.map */
