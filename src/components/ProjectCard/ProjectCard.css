@@ -42,18 +42,26 @@ h1 {
 }
 .card .wrapper:hover .data {
   transform: translateY(0);
+  background-color: rgba(0, 0, 0, 0.6980392157);
 }
 .card .data {
   position: absolute;
   bottom: 0;
   width: 100%;
-  transform: translateY(calc(80px + 1em));
-  transition: transform 0.3s;
+  transform: translateY(calc(120px + 1em));
+  transition: all 0.3s;
 }
 .card .data .content {
-  padding: 1.5em;
+  padding-top: 0.3em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
   position: relative;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 0, 32px;
 }
 .card .type {
   font-size: 12px;
@@ -97,19 +105,10 @@ h1 {
 .project-card .date .year {
   font-size: 10px;
 }
-.project-card .content {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
-}
 .project-card .title a {
   color: white;
 }
 
 .tutoral {
   background: url(../../assets/tutoral.png) 20% 40%/contain no-repeat;
-}
-
-.hiremepls {
-  background: url(../../assets/Hiremepls.png) 20% 40%/contain no-repeat;
 }/*# sourceMappingURL=ProjectCard.css.map */

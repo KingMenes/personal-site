@@ -30,7 +30,6 @@ h1 {
   font-weight: 300;
 }
 
-
 // Base styles
 .card {
   float: left;
@@ -59,6 +58,7 @@ h1 {
     &:hover {
       .data {
         transform: translateY(0);
+        background-color: #000000b2;
       }
     }
   }
@@ -66,12 +66,19 @@ h1 {
     position: absolute;
     bottom: 0;
     width: 100%;
-    transform: translateY(calc(80px + 1em));
-    transition: transform 0.3s;
+    transform: translateY(calc(120px + 1em));
+    transition: all 0.3s;
     .content {
-      padding: 1.5em;
+      padding-top: 0.3em;
+      padding-right: 1.5em;
+      padding-bottom: 1.5em;
+      padding-left: 1.5em;
       position: relative;
       z-index: 1;
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      box-shadow: 0 5px 30px 10px rgba($black, 0.3);
+      border-radius: 0, 32px;
     }
   }
   .type {
@@ -91,9 +98,6 @@ h1 {
     transform: translateY(-60px);
   }
 }
-
-  
-
 
 .project-card {
   
@@ -121,12 +125,7 @@ h1 {
     .year {
       font-size: 10px;
     }
-  }
-  .content {
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    box-shadow: 0 5px 30px 10px rgba($black, 0.3);
-  }
+  }   
   .title {
     a {
       color: white;
@@ -142,7 +141,21 @@ h1 {
   background: url(../../assets/Hiremepls.png) 20% 40% / contain no-repeat;
 }
 
+.techspan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1em;
+  background-color: #0077ff;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.techdiv {
+  display: flex;
+  flex-direction: row;
+}
 
 
 
