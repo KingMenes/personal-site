@@ -1,56 +1,52 @@
-@import '../../helpers/darkTheme';
+@import "../../helpers/darkTheme";
 
-.aboutMe{
-    width: 75%;
+.aboutMe {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+
+  .about-text {
+    width: 55%;
+    color: $secondaryText;
+    line-height: 25px;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-family: "Libre Baskerville", serif;
+  }
+  .about-picture {
     display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100vh;
-
-    
-    .about-text{
-        width: 55%;
-        color: $secondaryText;
-        line-height: 25px;
-        margin-top: 200px;
-        margin-left: 20px;
-        font-family: 'Libre Baskerville', serif;
-        
+    justify-content: center;
+    height: 400px;
+    aspect-ratio: 1/1;
+    margin-top: 200px;
+    margin-left: 0px;
+    img {
+      border-radius: 50%;
     }
-    .about-picture{
-        display: flex;
-        justify-content: center;
-        height: 400px;
-        aspect-ratio: 1/1;
-        margin-top: 200px;
-        margin-left: 0px;
-        img{
-            border-radius: 50%;
-        }
-    }
-
-    
+  }
 }
 
-.heading{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;    
-    width: 100%;
-    color: $textColor;
-    font-weight: 100;
-    font-size: 24px;
-    font-family: 'Consolas', serif;
-    margin-bottom: 50px;
-    span{
-        color:$accentColor;
-        font-family: inherit;
-    }
-    hr{
-        width: 65%;
-        margin-left: 10px;
-        height: 0;
-        color: $secondaryText;
-    }
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  color: $textColor;
+  font-weight: 100;
+  font-size: 24px;
+  font-family: "Consolas", serif;
+  margin-bottom: 50px;
+  span {
+    color: $accentColor;
+    font-family: inherit;
+  }
+  hr {
+    width: 65%;
+    margin-left: 10px;
+    height: 0;
+    color: $secondaryText;
+  }
 }

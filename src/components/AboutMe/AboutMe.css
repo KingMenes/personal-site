@@ -8,7 +8,7 @@
 }
 .aboutMe .about-text {
   width: 55%;
-  color: #8D8D8D;
+  color: #8d8d8d;
   line-height: 25px;
   margin-top: 200px;
   margin-left: 20px;
@@ -31,7 +31,7 @@
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 100;
   font-size: 24px;
   font-family: "Consolas", serif;
@@ -45,5 +45,5 @@
   width: 65%;
   margin-left: 10px;
   height: 0;
-  color: #8D8D8D;
-}/*# sourceMappingURL=AboutMe.css.map */
+  color: #8d8d8d;
+} /*# sourceMappingURL=AboutMe.css.map */

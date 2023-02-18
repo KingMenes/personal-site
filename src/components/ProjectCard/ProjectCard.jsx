@@ -1,13 +1,11 @@
-import './ProjectCard.css'
-function ProjectCard({project}) {
-  
-  const listTech = project.techUsed.map(tech =>
-    <div key={tech.id}
-      className='techspan'>
+import "./ProjectCard.css";
+function ProjectCard({ project }) {
+  const listTech = project.techUsed.map((tech) => (
+    <div key={tech.id} className="techspan">
       {tech.icon}
-      {tech.name} 
+      {tech.name}
     </div>
-    );
+  ));
 
   return (
     <div class="project-card card">
@@ -20,16 +18,16 @@ function ProjectCard({project}) {
         <div class="data">
           <div class="content">
             {/* <span class="type">Project</span> */}
-            <h1 class="title"><a href="#">{project.title}</a></h1>
+            <h1 class="title">
+              <a href="#">{project.title}</a>
+            </h1>
             <p class="text">{project.desc}</p>
-            <div className='techdiv'>
-              {listTech}
-            </div>
+            <div className="techdiv">{listTech}</div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;

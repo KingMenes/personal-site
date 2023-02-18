@@ -1,7 +1,7 @@
 #eyeb {
   transform: translateY(-9px);
   -webkit-animation: eyeb 5s linear infinite;
-          animation: eyeb 5s linear infinite;
+  animation: eyeb 5s linear infinite;
 }
 
 @-webkit-keyframes eyeb {
@@ -54,7 +54,7 @@
   -ms-transform: translateY(-5px);
   -moz-transform: translateY(-5px);
   -webkit-animation: mouth 5s linear infinite;
-          animation: mouth 5s linear infinite;
+  animation: mouth 5s linear infinite;
 }
 
 @-webkit-keyframes mouth {
@@ -107,7 +107,7 @@
   -moz-transform: translateX(-2px);
   -ms-transform: translateX(-2px);
   -webkit-animation: eyey2 4s linear infinite;
-          animation: eyey2 4s linear infinite;
+  animation: eyey2 4s linear infinite;
 }
 
 @-webkit-keyframes eyey2 {
@@ -160,7 +160,7 @@
   -moz-transform: translateY(-4px);
   -ms-transform: translateY(-4px);
   -webkit-animation: notebook 6s linear infinite;
-          animation: notebook 6s linear infinite;
+  animation: notebook 6s linear infinite;
 }
 
 @-webkit-keyframes notebook {
@@ -195,7 +195,7 @@
 #legs {
   transform: translateY(-9px);
   -webkit-animation: legs 6s infinite;
-          animation: legs 6s infinite;
+  animation: legs 6s infinite;
 }
 
 @-webkit-keyframes legs {
@@ -245,7 +245,7 @@
 }
 #pe {
   -webkit-animation: pe 6s infinite;
-          animation: pe 6s infinite;
+  animation: pe 6s infinite;
 }
 
 @-webkit-keyframes pe {
@@ -268,7 +268,7 @@
   -ms-transform: translateY(-9px);
   -moz-transform: translateY(-9px);
   -webkit-animation: shirt 6s infinite;
-          animation: shirt 6s infinite;
+  animation: shirt 6s infinite;
 }
 
 @-webkit-keyframes shirt {
@@ -321,7 +321,7 @@
   -ms-transform: translateY(-9px);
   -moz-transform: translateY(-9px);
   -webkit-animation: tshirt 6s infinite;
-          animation: tshirt 6s infinite;
+  animation: tshirt 6s infinite;
 }
 
 @-webkit-keyframes tshirt {
@@ -374,7 +374,7 @@
   -ms-transform: translateY(-9px);
   -moz-transform: translateY(-9px);
   -webkit-animation: head 6s infinite;
-          animation: head 6s infinite;
+  animation: head 6s infinite;
 }
 
 @-webkit-keyframes head {
@@ -408,7 +408,7 @@
 }
 #ears {
   -webkit-animation: ears 6s linear infinite;
-          animation: ears 6s linear infinite;
+  animation: ears 6s linear infinite;
 }
 
 @-webkit-keyframes ears {
@@ -458,7 +458,7 @@
 }
 #brows {
   -webkit-animation: brows 6.1s linear infinite;
-          animation: brows 6.1s linear infinite;
+  animation: brows 6.1s linear infinite;
 }
 
 @-webkit-keyframes brows {
@@ -493,4 +493,4 @@
 .headerIllustration {
   height: 100%;
   width: 100%;
-}/*# sourceMappingURL=HeaderIllustration.css.map */
+} /*# sourceMappingURL=HeaderIllustration.css.map */

@@ -23,7 +23,7 @@
   height: 40px;
   color: #fff;
   font-size: 20px;
-  color: #8D8D8D;
+  color: #8d8d8d;
   margin-bottom: 10px;
 }
 .socialmediasidebar ul a:hover {
@@ -32,7 +32,7 @@
 }
 .socialmediasidebar .vertical {
   height: 100px;
-  background-color: #8D8D8D;
+  background-color: #8d8d8d;
   width: 1px;
 }
 .socialmediasidebar .email {
@@ -42,13 +42,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #8D8D8D;
+  color: #8d8d8d;
   -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   font-family: "Consolas", "serif";
   font-size: 16px;
 }
 .socialmediasidebar .email span {
   margin-bottom: 20px;
   letter-spacing: 3px;
-}/*# sourceMappingURL=SocialMediaSidebar.css.map */
+} /*# sourceMappingURL=SocialMediaSidebar.css.map */

@@ -1,5 +1,5 @@
 .header {
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +21,7 @@
   font-size: 1.5em;
   line-height: 40px;
   margin-right: 40px;
-  color: #8D8D8D;
+  color: #8d8d8d;
 }
 .header .greeting {
   font-size: 4em;
@@ -60,4 +60,4 @@
   .page-art {
     padding-top: 50px;
   }
-}/*# sourceMappingURL=Header.css.map */
+} /*# sourceMappingURL=Header.css.map */

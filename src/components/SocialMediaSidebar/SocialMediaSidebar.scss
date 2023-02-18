@@ -1,58 +1,56 @@
-@import '../../helpers/darkTheme';
-.socialmediasidebar{
-    position: fixed;
-    bottom: -20px;
-    left: 0px;
+@import "../../helpers/darkTheme";
+.socialmediasidebar {
+  position: fixed;
+  bottom: -20px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+  ul {
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    list-style: none;
 
-    ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        
-       
-
-        a{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            color: #fff;
-            font-size: 20px;
-            color:$secondaryText;
-            margin-bottom: 10px;
-            &:hover{
-                color:$accentColor;
-                transition: all 0.2s ease-in-out;
-            }
-        }
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      color: #fff;
+      font-size: 20px;
+      color: $secondaryText;
+      margin-bottom: 10px;
+      &:hover {
+        color: $accentColor;
+        transition: all 0.2s ease-in-out;
+      }
     }
-    .vertical{
-        height: 100px;
-        background-color: $secondaryText;
-        width: 1px;
+  }
+  .vertical {
+    height: 100px;
+    background-color: $secondaryText;
+    width: 1px;
+  }
+  .email {
+    position: fixed;
+    right: 60px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $secondaryText;
+    writing-mode: vertical-rl;
+    font-family: "Consolas", "serif";
+    font-size: 16px;
+    span {
+      margin-bottom: 20px;
+      letter-spacing: 3px;
     }
-    .email{
-        position: fixed;
-        right: 60px;
-        bottom: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $secondaryText;
-        writing-mode: vertical-rl;
-        font-family: 'Consolas', 'serif';
-        font-size: 16px;
-        span {
-            margin-bottom: 20px;
-            letter-spacing: 3px;
-        }
-    }
+  }
 }

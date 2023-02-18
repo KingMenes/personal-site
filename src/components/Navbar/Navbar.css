@@ -5,7 +5,7 @@
   align-items: center;
   width: 90%;
   height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   justify-content: space-between;
   font-size: 26px;
   margin: 20px 0 auto;
@@ -46,4 +46,4 @@
   .navbar ul li {
     margin-right: 1.5em;
   }
-}/*# sourceMappingURL=Navbar.css.map */
+} /*# sourceMappingURL=Navbar.css.map */
