@@ -19,7 +19,8 @@ h1 {
   padding: 0;
   list-style-type: none;
 }
-.card .menu-content::before, .card .menu-content::after {
+.card .menu-content::before,
+.card .menu-content::after {
   content: "";
   display: table;
 }
@@ -38,7 +39,8 @@ h1 {
   min-height: 540px;
   position: relative;
   overflow: hidden;
-  filter: drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03)) drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08));
+  filter: drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03))
+    drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08));
 }
 .card .wrapper:hover .data {
   transform: translateY(0);
@@ -74,10 +76,10 @@ h1 {
   height: 70px;
   margin: 0;
 }
-.card input[type=checkbox] {
+.card input[type="checkbox"] {
   display: none;
 }
-.card input[type=checkbox]:checked + .menu-content {
+.card input[type="checkbox"]:checked + .menu-content {
   transform: translateY(-60px);
 }
 
@@ -111,11 +113,11 @@ h1 {
 }
 
 .tutoral {
-  background: url(../../assets/tutoral.png) 20% 40%/contain no-repeat;
+  background: url(../../assets/tutoral.png) 20% 40% / contain no-repeat;
 }
 
 .hiremepls {
-  background: url(../../assets/Hiremepls.png) 20% 40%/contain no-repeat;
+  background: url(../../assets/Hiremepls.png) 20% 40% / contain no-repeat;
 }
 
 .techspan {
@@ -132,4 +134,4 @@ h1 {
 .techdiv {
   display: flex;
   flex-direction: row;
-}/*# sourceMappingURL=ProjectCard.css.map */
+} /*# sourceMappingURL=ProjectCard.css.map */

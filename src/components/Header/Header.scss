@@ -1,7 +1,7 @@
 @import "../../helpers/darkTheme";
 .header {
   color: $textColor;
-//   border: 1px red solid;
+  //   border: 1px red solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,7 +86,7 @@
   margin-top: -50px;
   object-fit: cover;
   overflow: hidden;
-//   border: white 1px solid;
+  //   border: white 1px solid;
   border-radius: 50%;
   img {
     border-radius: 50%;
