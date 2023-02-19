@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import AboutMe from "../../components/AboutMe/AboutMe";
 import Experience from "../../components/Experience/Experience";
 import Projects from "../../components/Projects/Projects";
+import ContactMe from "../../components/ContactMe/ContactMe";
 
 function Home({ theme, setTheme }) {
   return (
@@ -11,6 +12,7 @@ function Home({ theme, setTheme }) {
       <AboutMe />
       <Experience />
       <Projects />
+      <ContactMe />
     </div>
   );
 }

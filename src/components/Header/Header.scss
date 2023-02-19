@@ -1,7 +1,7 @@
 @import "../../helpers/darkTheme";
 .header {
   color: $textColor;
-  // border: 1px red solid;
+//   border: 1px red solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +23,12 @@
       line-height: 40px;
       margin-right: 40px;
       color: $secondaryText;
+      display: block;
+      margin-top: 30px;
+
+      .type-animation {
+        margin-left: 5px;
+      }
     }
   }
 
@@ -35,13 +41,7 @@
     color: $accentColor;
   }
 
-  .page-art {
-    margin-right: 30px;
-    margin-top: -80px;
-    width: 60%;
-  }
-
-  .contact-btn {
+  .btn {
     background: none;
     color: inherit;
     border: none;
@@ -58,8 +58,39 @@
     margin-top: 10px;
     &:hover {
       transform: scale(1.1);
-      box-shadow: 0 5px 15px $accentColor;
+      //   box-shadow: 0 5px 15px $accentColor;
     }
+  }
+
+  .resume-btn {
+    background: none;
+    border: 1px solid $accentColor;
+    &:hover {
+      color: $accentColor;
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.about-picture {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: -50px;
+  object-fit: cover;
+  overflow: hidden;
+//   border: white 1px solid;
+  border-radius: 50%;
+  img {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
   }
 }
 

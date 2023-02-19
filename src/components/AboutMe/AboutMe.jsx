@@ -1,5 +1,6 @@
 import "./AboutMe.css";
-import portrait from "../../assets/portrait2.jpg";
+import HeaderIllustration from "../HeaderIllustration/HeaderIllustration";
+import { themes } from "../../theme.js";
 
 function AboutMe() {
   return (
@@ -16,8 +17,8 @@ function AboutMe() {
         </p>
         <p>Fast forward to today, and I've had the</p>
       </div>
-      <div className="about-picture">
-        <img src={portrait} alt="" />
+      <div className="page-art">
+        <HeaderIllustration theme={themes.dark} />
       </div>
     </div>
   );

@@ -29,11 +29,11 @@ function Navbar() {
               <span>04. </span>Contact Me
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#">
               <span>05. </span>Résumé
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

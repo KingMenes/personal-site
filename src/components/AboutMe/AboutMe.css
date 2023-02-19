@@ -10,20 +10,9 @@
   width: 55%;
   color: #8d8d8d;
   line-height: 25px;
-  margin-top: 200px;
+  margin-top: 20px;
   margin-left: 20px;
   font-family: "Libre Baskerville", serif;
-}
-.aboutMe .about-picture {
-  display: flex;
-  justify-content: center;
-  height: 400px;
-  aspect-ratio: 1/1;
-  margin-top: 200px;
-  margin-left: 0px;
-}
-.aboutMe .about-picture img {
-  border-radius: 50%;
 }
 
 .heading {
@@ -36,6 +25,7 @@
   font-size: 24px;
   font-family: "Consolas", serif;
   margin-bottom: 50px;
+  margin-top: 20px;
 }
 .heading span {
   color: #0077ff;
@@ -45,5 +35,12 @@
   width: 65%;
   margin-left: 10px;
   height: 0;
+  margin-top: 15px;
   color: #8d8d8d;
+}
+
+.page-art {
+  margin-right: 30px;
+  margin-top: -80px;
+  width: 60%;
 } /*# sourceMappingURL=AboutMe.css.map */

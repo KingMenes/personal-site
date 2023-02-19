@@ -25,7 +25,7 @@ a {
 
 h1 {
   font-family: $open-sans;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 // Base styles
@@ -74,7 +74,7 @@ h1 {
       padding-left: 1.5em;
       position: relative;
       z-index: 1;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.726);
       color: white;
       box-shadow: 0 5px 30px 10px rgba($black, 0.3);
       border-radius: 0, 32px;
@@ -84,7 +84,8 @@ h1 {
     font-size: 12px;
   }
   .title {
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   .text {
     height: 70px;

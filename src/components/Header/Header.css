@@ -22,6 +22,11 @@
   line-height: 40px;
   margin-right: 40px;
   color: #8d8d8d;
+  display: block;
+  margin-top: 30px;
+}
+.header .blurb p .type-animation {
+  margin-left: 5px;
 }
 .header .greeting {
   font-size: 4em;
@@ -30,12 +35,7 @@
 .header .name {
   color: #0077ff;
 }
-.header .page-art {
-  margin-right: 30px;
-  margin-top: -80px;
-  width: 60%;
-}
-.header .contact-btn {
+.header .btn {
   background: none;
   color: inherit;
   border: none;
@@ -51,13 +51,42 @@
   transition: all 0.2s ease-in-out;
   margin-top: 10px;
 }
-.header .contact-btn:hover {
+.header .btn:hover {
   transform: scale(1.1);
-  box-shadow: 0 5px 15px #0077ff;
+}
+.header .resume-btn {
+  background: none;
+  border: 1px solid #0077ff;
+}
+.header .resume-btn:hover {
+  color: #0077ff;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.about-picture {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: -50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.about-picture img {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
 }
 
 @media (min-width: 768px) {
   .page-art {
     padding-top: 50px;
   }
-} /*# sourceMappingURL=Header.css.map */
+}/*# sourceMappingURL=Header.css.map */

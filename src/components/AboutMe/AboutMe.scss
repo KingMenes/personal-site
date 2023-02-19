@@ -12,20 +12,9 @@
     width: 55%;
     color: $secondaryText;
     line-height: 25px;
-    margin-top: 200px;
+    margin-top: 20px;
     margin-left: 20px;
     font-family: "Libre Baskerville", serif;
-  }
-  .about-picture {
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    aspect-ratio: 1/1;
-    margin-top: 200px;
-    margin-left: 0px;
-    img {
-      border-radius: 50%;
-    }
   }
 }
 
@@ -39,6 +28,7 @@
   font-size: 24px;
   font-family: "Consolas", serif;
   margin-bottom: 50px;
+  margin-top: 20px;
   span {
     color: $accentColor;
     font-family: inherit;
@@ -47,6 +37,13 @@
     width: 65%;
     margin-left: 10px;
     height: 0;
+    margin-top: 15px;
     color: $secondaryText;
   }
+}
+
+.page-art {
+  margin-right: 30px;
+  margin-top: -80px;
+  width: 60%;
 }
