@@ -6,7 +6,7 @@ function HeaderIllustration(props) {
     <svg
       version="1.1"
       className="headerIllustration"
-      viewBox="80 -10 100.1879 500"
+      viewBox="-125 0 500 500"
       height="650.68268"
       width="711.1879"
       data-name="Layer 1"

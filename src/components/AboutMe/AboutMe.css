@@ -13,6 +13,7 @@
   margin-top: 20px;
   margin-left: 20px;
   font-family: "Libre Baskerville", serif;
+  width: 60%;
 }
 
 .heading {
@@ -41,6 +42,6 @@
 
 .page-art {
   margin-right: 30px;
-  margin-top: -80px;
-  width: 60%;
+  margin-top: 0px;
+  height: 55%;
 } /*# sourceMappingURL=AboutMe.css.map */
