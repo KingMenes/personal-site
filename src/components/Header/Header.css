@@ -76,7 +76,7 @@
   max-height: 400px;
   margin-top: -50px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -89,4 +89,4 @@
   .page-art {
     padding-top: 50px;
   }
-} /*# sourceMappingURL=Header.css.map */
+}/*# sourceMappingURL=Header.css.map */

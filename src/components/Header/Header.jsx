@@ -23,7 +23,7 @@ function Header() {
             wrapper="span"
             cursor={true}
             repeat={Infinity}
-            deletionSpeed={99}
+            deletionSpeed={70}
             className="type-animation"
           />
           <br />
