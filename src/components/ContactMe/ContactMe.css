@@ -1,7 +1,25 @@
 .contactMe {
   width: 75%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-}/*# sourceMappingURL=ContactMe.css.map */
+  margin-bottom: 400px;
+}
+.contactMe div {
+  width: 55%;
+  color: #fff;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "Libre Baskerville", serif;
+  width: 60%;
+}
+.contactMe div span {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+} /*# sourceMappingURL=ContactMe.css.map */
