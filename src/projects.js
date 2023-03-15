@@ -6,6 +6,7 @@ const projects1 = [
     id: 1,
     title: "Tutoral.org",
     name: "tutoral",
+    link:"https://www.tutoral.org",
     desc: "An online tutoring site aimed to connect parents and clients to in-home tutors in many subjects.",
     techUsed: [
       {
@@ -29,6 +30,7 @@ const projects1 = [
     id: 2,
     title: "hiremepls",
     name: "hiremepls",
+    link:"https://hiremepls-rsb9.onrender.com/",
     desc: "A forum where users can share and answer interview questions.",
     techUsed: [
       {
