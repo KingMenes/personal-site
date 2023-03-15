@@ -1,5 +1,5 @@
-import { FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFirebase } from "react-icons/si";
+import { FaReact,FaSass } from "react-icons/fa";
+import { SiTailwindcss, SiFirebase, SiMongodb } from "react-icons/si";
 
 const projects1 = [
   {
@@ -35,14 +35,17 @@ const projects1 = [
     techUsed: [
       {
         id: 1,
+        icon: <FaReact />,
         name: "React",
       },
       {
         id: 2,
+        icon: <FaSass />,
         name: "Sass CSS",
       },
       {
         id: 3,
+        icon:<SiMongodb/>,
         name: "MongoDB",
       },
       {
